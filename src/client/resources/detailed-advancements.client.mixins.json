@@ -1,0 +1,18 @@
+{
+	"required": true,
+	"package": "fenghuang.detailedadvancements.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+		"ExampleClientMixin",
+		"AdvancementWidgetMixin",
+		"MinecraftAccessor",
+		"AdvancementTabAccessor",
+		"AdvancementsScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

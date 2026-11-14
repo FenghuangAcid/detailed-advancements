@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "detailed-advancements",
+  "version": "${version}",
+  "name": "Detailed Advancements",
+  "description": "A mod that reveals hidden advancement information",
+  "authors": [
+    "FenghuangAcid"
+  ],
+  "contact": {
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "assets/detailed-advancements/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "fenghuang.detailedadvancements.client.DetailedAdvancementsClient"
+    ],
+    "modmenu": [
+      "fenghuang.detailedadvancements.client.DetailedAdvancementsModMenu"
+    ]
+  },
+  "mixins": [
+    "detailed-advancements.mixins.json",
+    {
+      "config": "detailed-advancements.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

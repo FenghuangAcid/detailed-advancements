@@ -1,0 +1,25 @@
+{
+  "minecraft:adventure/salvage_sherd": {
+    "groups": [
+      {
+        "translation_key": "detailedadvancements.criterion.salvage_sherd.brush",
+        "mode": "any",
+        "criteria": [
+          "desert_pyramid",
+          "desert_well",
+          "ocean_ruin_cold",
+          "ocean_ruin_warm",
+          "trail_ruins_common",
+          "trail_ruins_rare"
+        ]
+      },
+      {
+        "translation_key": "detailedadvancements.criterion.salvage_sherd.sherd",
+        "mode": "all",
+        "criteria": [
+          "has_sherd"
+        ]
+      }
+    ]
+  }
+}
