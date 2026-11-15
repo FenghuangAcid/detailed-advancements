@@ -30,11 +30,12 @@
   "gui.detailedadvancements.config.title": "Detailed Advancements Settings",
   "gui.detailedadvancements.config.completed_conditions": "Completed Conditions",
   "gui.detailedadvancements.config.incomplete_conditions": "Incomplete Conditions",
-
   "gui.detailedadvancements.config.display.always": "Always Show",
   "gui.detailedadvancements.config.display.after_completed": "Hide After Advancement Completed",
   "gui.detailedadvancements.config.display.never": "Never Show",
-
   "gui.detailedadvancements.config.save": "Save",
-  "gui.detailedadvancements.config.cancel": "Cancel"
+  "gui.detailedadvancements.config.cancel": "Cancel",
+  "gui.detailedadvancements.guide.title": "Tutorial: %s",
+  "gui.detailedadvancements.guide.back": "Back",
+  "gui.detailedadvancements.guide.coming_soon": "Tutorial content is coming soon."
 }

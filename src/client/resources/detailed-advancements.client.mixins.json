@@ -7,7 +7,8 @@
 		"AdvancementWidgetMixin",
 		"MinecraftAccessor",
 		"AdvancementTabAccessor",
-		"AdvancementsScreenMixin"
+		"AdvancementsScreenMixin",
+		"AdvancementsScreenAccessor"
 	],
 	"injectors": {
 		"defaultRequire": 1

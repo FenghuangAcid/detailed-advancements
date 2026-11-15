@@ -30,11 +30,12 @@
   "gui.detailedadvancements.config.title": "Detailed Advancements 設定",
   "gui.detailedadvancements.config.completed_conditions": "已完成條件",
   "gui.detailedadvancements.config.incomplete_conditions": "未完成條件",
-
   "gui.detailedadvancements.config.display.always": "永遠顯示",
   "gui.detailedadvancements.config.display.after_completed": "進度達成後關閉",
   "gui.detailedadvancements.config.display.never": "永不顯示",
-
   "gui.detailedadvancements.config.save": "儲存",
-  "gui.detailedadvancements.config.cancel": "取消"
+  "gui.detailedadvancements.config.cancel": "取消",
+  "gui.detailedadvancements.guide.title": "進度教學：%s",
+  "gui.detailedadvancements.guide.back": "返回",
+  "gui.detailedadvancements.guide.coming_soon": "教學內容尚未開放"
 }
