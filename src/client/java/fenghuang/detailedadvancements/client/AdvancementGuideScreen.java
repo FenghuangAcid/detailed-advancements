@@ -46,9 +46,6 @@ public class AdvancementGuideScreen extends Screen {
 
     @Override
     public void onClose() {
-        System.out.println(
-                "[DetailedAdvancements] Guide onClose"
-        );
 
         this.minecraft.gui.setScreen(this.parent);
 
@@ -57,10 +54,6 @@ public class AdvancementGuideScreen extends Screen {
             ((AdvancementsScreenAccessor) (Object) screen)
                     .detailedadvancements$getAdvancements()
                     .setListener(screen);
-
-            System.out.println(
-                    "[DetailedAdvancements] Listener restored after Guide"
-            );
         }
     }
 

@@ -22,7 +22,6 @@
     ]
   },
   "mixins": [
-    "detailed-advancements.mixins.json",
     {
       "config": "detailed-advancements.client.mixins.json",
       "environment": "client"

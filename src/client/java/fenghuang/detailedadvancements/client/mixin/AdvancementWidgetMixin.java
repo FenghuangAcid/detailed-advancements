@@ -19,7 +19,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.util.FormattedCharSequence;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.FormattedText;
-import net.minecraft.client.gui.screens.advancements.AdvancementWidget;
 
 import org.spongepowered.asm.mixin.gen.Invoker;
 import org.spongepowered.asm.mixin.Final;

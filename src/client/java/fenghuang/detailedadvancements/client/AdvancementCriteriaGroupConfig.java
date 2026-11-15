@@ -13,7 +13,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.HashSet;
 
 public final class AdvancementCriteriaGroupConfig {
 
@@ -21,25 +20,12 @@ public final class AdvancementCriteriaGroupConfig {
             "/assets/detailed-advancements/criteria_groups.json";
 
     private static final Map<String, List<Group>> GROUPS = load();
-    private static final HashSet<String> DEBUGGED_LOOKUPS = new HashSet<>();
 
     private AdvancementCriteriaGroupConfig() {
     }
 
     public static List<Group> getGroups(String advancementId) {
-        List<Group> groups = GROUPS.getOrDefault(advancementId, List.of());
-
-        if (DEBUGGED_LOOKUPS.add(advancementId)) {
-            System.out.println(
-                    "[DetailedAdvancements] "
-                            + advancementId
-                            + " -> "
-                            + groups.size()
-                            + " custom group(s)"
-            );
-        }
-
-        return groups;
+        return GROUPS.getOrDefault(advancementId, List.of());
     }
 
     private static Map<String, List<Group>> load() {
@@ -114,9 +100,7 @@ public final class AdvancementCriteriaGroupConfig {
                             List.copyOf(groups)
                     );
                 }
-                System.out.println(
-                        "[DetailedAdvancements] Loaded criteria groups: " + result.keySet()
-                );
+
                 return Map.copyOf(result);
             }
 
